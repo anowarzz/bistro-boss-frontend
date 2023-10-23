@@ -12,7 +12,7 @@ const navOptions = <>
 
     return (
         <>
-  <div className="navbar bg-base-100">
+  <div className="navbar fixed bg-opacity-30 z-20 bg-black text-white max-w-screen-xl">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const navOptions = <>
     <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 ">
     {navOptions}
     </ul>
   </div>
